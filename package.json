@@ -1,0 +1,23 @@
+{
+  "name": "minio-poc",
+  "version": "1.0.0",
+  "description": "proof of concept download multiple files from minio and create a zip archive",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "v17.2.0",
+    "npm": "8.1.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "minio": "^7.0.26"
+  },
+  "devDependencies": {
+    "@types/minio": "^7.0.12"
+  }
+}
